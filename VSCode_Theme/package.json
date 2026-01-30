@@ -21,6 +21,16 @@
         "label": "Everforest Light",
         "uiTheme": "vs",
         "path": "./themes/everforest-light.json"
+      },
+      {
+        "label": "Everforest Dark Pale",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest-dark-pale.json"
+      },
+      {
+        "label": "Everforest Light Pale",
+        "uiTheme": "vs",
+        "path": "./themes/everforest-light-pale.json"
       }
     ]
   }
