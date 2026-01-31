@@ -1,6 +1,6 @@
-# Everforest Theme for Zed Editor
+# Everforest Theme & Settings for Zed
 
-A beautiful, warm color scheme for [Zed Editor](https://zed.dev/) based on the popular Everforest theme. This theme includes both dark and light variants optimized for long coding sessions.
+A beautiful, warm color scheme for [Zed Editor](https://zed.dev/) based on the popular Everforest theme, along with optimized settings.
 
 ## Features
 
@@ -9,12 +9,16 @@ A beautiful, warm color scheme for [Zed Editor](https://zed.dev/) based on the p
 - 👁️ **Eye-friendly Colors**: Carefully selected warm colors that reduce eye strain
 - ✨ **Modern UI**: Consistent styling across editor, panels, and terminal
 - 🔤 **Typography Support**: Italic keywords, bold functions, and more
+- ⚙️ **Optimized Settings**: Included `zed_settings.json` for a better experience
 
 ## Installation
 
-1. **Copy the theme file** to your Zed themes directory:
-   - **macOS/Linux**: `~/.config/zed/themes/`
-   - **Windows**: `%AppData%\Zed\themes\`
+### 1. Install the Theme
+
+Copy the theme file to your Zed themes directory:
+
+- **macOS/Linux**: `~/.config/zed/themes/`
+- **Windows**: `%AppData%\Zed\themes\`
 
 ```bash
 # macOS/Linux
@@ -22,12 +26,21 @@ mkdir -p ~/.config/zed/themes
 cp everforest.json ~/.config/zed/themes/
 ```
 
-2. **Restart Zed** or reload the window
+### 2. Activate the Theme
 
-3. **Select the theme**:
-   - Open Command Palette (`Cmd+Shift+P` on macOS or `Ctrl+Shift+P` on Windows/Linux)
-   - Type "theme selector" and press Enter
-   - Choose either "Everforest Dark" or "Everforest Light"
+1. Restart Zed or reload the window.
+2. Open the Command Palette (`Cmd+Shift+P` on macOS or `Ctrl+Shift+P` on Windows/Linux).
+3. Type "theme selector" and press Enter.
+4. Choose either "Everforest Dark" or "Everforest Light".
+
+### 3. Apply Recommended Settings
+
+We have included a `zed_settings.json` file with configuration that complements the theme, including font adjustments and italic/bold syntax highlighting.
+
+To apply these settings:
+1. Open your Zed settings: `Cmd+,` (macOS) or `Ctrl+,` (Windows/Linux)
+2. Copy the contents of `zed_settings.json` into your user settings `settings.json`.
+3. Pay special attention to the `experimental.theme_overrides` section for the best typography experience.
 
 ## Color Palette
 

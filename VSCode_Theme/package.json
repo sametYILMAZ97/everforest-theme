@@ -3,7 +3,7 @@
   "displayName": "Everforest Theme",
   "description": "A comfortable and pleasant color scheme inspired by Everforest",
   "version": "1.0.0",
-  "publisher": "your-name",
+  "publisher": "samet",
   "engines": {
     "vscode": "^1.60.0"
   },

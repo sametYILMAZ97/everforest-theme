@@ -1,0 +1,145 @@
+{
+  "agent": {
+    "commit_message_model": {
+      "model": "gpt-5-mini",
+      "provider": "copilot_chat",
+    },
+    "default_model": {
+      "model": "gemini-3-pro-preview",
+      "provider": "copilot_chat",
+    },
+    "default_profile": "write",
+    "enable_feedback": false,
+    "favorite_models": [
+      {
+        "model": "gemini-3-pro-preview",
+        "provider": "copilot_chat",
+      },
+      {
+        "model": "claude-opus-4.5",
+        "provider": "copilot_chat",
+      },
+      {
+        "model": "gpt-5.2",
+        "provider": "copilot_chat",
+      },
+      {
+        "model": "gpt-5.2",
+        "provider": "openai",
+      },
+      {
+        "model": "gemini-3-flash-preview",
+        "provider": "copilot_chat",
+      },
+      {
+        "model": "claude-sonnet-4.5",
+        "provider": "copilot_chat",
+      },
+      {
+        "model": "gpt-5-mini",
+        "provider": "copilot_chat",
+      },
+    ],
+    "model_parameters": [],
+    "notify_when_agent_waiting": "all_screens",
+    "play_sound_when_agent_done": true,
+  },
+  "agent_buffer_font_size": 14,
+  "agent_servers": {
+    "opencode": {
+      "default_config_options": {},
+      "favorite_config_option_values": {},
+      "favorite_models": ["cerebras/zai-glm-4.7"],
+      "type": "extension",
+    },
+  },
+  "agent_ui_font_size": 14,
+  "auto_update": true,
+  "buffer_font_size": 14,
+  "buffer_line_height": {
+    "custom": 1.2,
+  },
+  "colorize_brackets": true,
+  "experimental.theme_overrides": {
+    "syntax": {
+      "comment": {
+        "font_style": "italic",
+      },
+      "comment.doc": {
+        "font_style": "italic",
+      },
+      "constructor": {
+        "font_weight": 700,
+      },
+      "emphasis": {
+        "font_style": "italic",
+      },
+      "emphasis.strong": {
+        "font_weight": 700,
+      },
+      "function": {
+        "font_weight": 700,
+      },
+      "hint": {
+        "font_style": "italic",
+      },
+      "keyword": {
+        "font_style": "italic",
+      },
+      "link_text": {
+        "font_style": "italic",
+      },
+      "predictive": {
+        "font_style": "italic",
+      },
+      "title": {
+        "font_weight": 700,
+      },
+      "type": {
+        "font_style": "italic",
+      },
+    },
+  },
+  "features": {
+    "edit_prediction_provider": "copilot",
+  },
+  "git_panel": {
+    "tree_view": true,
+  },
+  "icon_theme": "Catppuccin Latte",
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "prettier": {
+    "allowed": true,
+  },
+  "project_panel": {
+    "button": true,
+  },
+  "scroll_beyond_last_line": "off",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "status_bar": {
+    "active_language_button": true,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "terminal": {
+    "blinking": "on",
+    "cursor_shape": "bar",
+    "font_family": "FiraCode Nerd Font Mono",
+    "font_size": 12,
+  },
+  "theme": {
+    "dark": "Ayu Dark",
+    "light": "Everforest Light",
+    "mode": "dark",
+  },
+  "title_bar": {
+    "show_menus": false,
+  },
+  "ui_font_size": 14,
+}
