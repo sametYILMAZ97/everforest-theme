@@ -1,14 +1,6 @@
 {
   "agent": {
     "default_model": {
-      "model": "claude-opus-4.5",
-      "provider": "copilot_chat"
-    },
-    "commit_message_model": {
-      "model": "gpt-5-mini",
-      "provider": "copilot_chat"
-    },
-    "inline_assistant_model": {
       "model": "gpt-5-mini",
       "provider": "copilot_chat"
     },
